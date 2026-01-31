@@ -38,7 +38,7 @@ $Asset = @{
       },
       @{
         name = "AssetUpdater Date"
-        value = Get-Date
+        value = Get-Date -Format "yyyy-MM-dd"
       },
       @{
         name = "RAM"
